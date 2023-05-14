@@ -71,7 +71,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 
 #about-me {
@@ -135,14 +134,11 @@ body {
 
 .gallery-item {
 	position: absolute;
+	max-width: 500px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-
-.gallery-item img {
-	max-width: 500px;
 }
 
 .mg-prev,
