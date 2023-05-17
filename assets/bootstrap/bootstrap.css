@@ -6532,6 +6532,11 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
+.picture_nina {
+  max-width: 554px;
+  height: auto;
+}
+
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: -webkit-sticky;
@@ -6943,6 +6948,7 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
+  height: auto;
 }
 
 .w-auto {

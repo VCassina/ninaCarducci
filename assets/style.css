@@ -46,6 +46,11 @@ body {
 	height: 20px;
 }
 
+.cursed {
+	width: 1920px;
+	height: 888px;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
