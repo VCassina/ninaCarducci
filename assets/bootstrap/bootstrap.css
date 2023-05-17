@@ -7476,6 +7476,8 @@ fieldset:disabled .btn {
   .picture_nina {
     width: auto;
     height: auto;
+    min-width: 200px;
+    min-height: 200px;
   }
 }
 
