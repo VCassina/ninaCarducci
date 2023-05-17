@@ -6533,8 +6533,15 @@ textarea.form-control-lg {
 }
 
 .picture_nina {
-  max-width: 554px;
-  height: auto;
+  width: 554px;
+  height: 554px;
+}
+
+@media (max-width: 1919px) {
+  .picture_nina {
+width: auto;
+height: auto;
+  }
 }
 
 @media (min-width: 576px) {
