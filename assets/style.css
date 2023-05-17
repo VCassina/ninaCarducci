@@ -46,9 +46,10 @@ body {
 	height: 20px;
 }
 
-.cursed_picture {
+.ryoji_picture {
 	width: 1920px;
-	height: 888px;
+	max-height: 888px;
+	height: auto;
 }
 
 #about {
