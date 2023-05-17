@@ -47,9 +47,8 @@ body {
 }
 
 .ryoji_picture {
-	width: 1920px;
+	max-width: 1920px;
 	max-height: 888px;
-	height: auto;
 }
 
 #about {
