@@ -433,6 +433,22 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		function loadCSS(url) {
+		  var link = document.createElement('link');
+		  link.rel = 'stylesheet';
+		  link.href = url;
+		  document.head.appendChild(link);
+		}
+	  
+		// Chargement asynchrone des stylesheets après le chargement initial de la page.
+		window.addEventListener('load', function() {
+		  loadCSS('./assets/bootstrap/bootstrap.css');
+		  loadCSS('./assets/style.css');
+		});
+	  </script>
+
 </body>
 
 </html>
