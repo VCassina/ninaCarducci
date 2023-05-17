@@ -7474,7 +7474,7 @@ fieldset:disabled .btn {
 
 @media (max-width: 1919px) {
   .picture_nina {
-    width: auto;
+    width: 100%;
     height: auto;
     min-width: 200px;
     min-height: 200px;
