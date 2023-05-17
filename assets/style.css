@@ -234,7 +234,16 @@ body {
 
 .form-container {
 	flex: 2;
+}
 
+.picture_left {
+	width: 554px !important;
+	height: 552px;
+}
+
+.picture_right {
+	width: 418px;
+	height: 418px;
 }
 
 form {
