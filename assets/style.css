@@ -43,7 +43,7 @@ body {
 
 .social-link img {
 	width: 20px;
-	height: auto;
+	height: 20px;
 }
 
 #about {
@@ -237,21 +237,9 @@ body {
 	flex: 2;
 }
 
-.picture_left {
-	width: 554px !important;
-	height: 552px;
-}
-
 .picture_right {
 	width: 418px;
 	height: 418px;
-}
-
-@media (max-width: 1919px) {
-	.picture_left {
-		width: 100% !important;
-		height: auto;
-	}
 }
 
 form {
