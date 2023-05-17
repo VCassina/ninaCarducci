@@ -237,8 +237,8 @@ body {
 }
 
 .picture_left {
-	width: 554px !important;
-	height: 552px;
+	max-width: 554px;
+	max-height: 552px;
 }
 
 .picture_right {

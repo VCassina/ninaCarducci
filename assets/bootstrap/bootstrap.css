@@ -5988,6 +5988,11 @@ textarea.form-control-lg {
   content: "";
 }
 
+.carousel-item_img {
+ max-width: 1920px;
+ max-height: 888px; 
+}
+
 .carousel-item {
   position: relative;
   display: none;
