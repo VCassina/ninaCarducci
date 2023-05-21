@@ -119,7 +119,6 @@ body {
 .picture {
 	flex: 1;
 	margin: 0 20px;
-	z-index: 0;
 }
 
 .picture img {
@@ -317,7 +316,6 @@ font-weight: 400;
 font-size: 28px;
 }
 
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -479,5 +477,9 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+	}
+	.gallery-item {
+		width: 100vw;
+		height: auto;
 	}
 }
