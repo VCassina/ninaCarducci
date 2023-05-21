@@ -122,18 +122,9 @@ body {
 	z-index: 0;
 }
 
-.picture_nina {
-	width: 560px;
-	height: auto;
+.picture img {
+	width: 100%;
 }
-
-@media (max-width: 1920px) {
-	.picture img {
-	  width: 100%;
-	  height: auto;
-	}
-  }
-  
 
 #about-me {
 	flex: 2
