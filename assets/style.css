@@ -105,6 +105,10 @@ body {
 	position: relative;
 }
 
+.picture.left {
+	z-index: 0;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -148,10 +152,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-/* #gallery {
-	/*	min-height: 100vh; 
-} */
 
 .title {
 	text-align: center;
