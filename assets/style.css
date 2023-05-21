@@ -123,8 +123,8 @@ body {
 }
 
 .picture_nina {
-	width: 554px;
-	height: 554px;
+	width: 560px;
+	height: auto;
 }
 
 @media (max-width: 1920px) {
