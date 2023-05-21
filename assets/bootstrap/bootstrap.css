@@ -7467,20 +7467,6 @@ fieldset:disabled .btn {
   z-index: 1020;
 }
 
-.picture_nina {
-  width: 554px;
-  height: 554px;
-}
-
-@media (max-width: 1919px) {
-  .picture_nina {
-    width: 100%;
-    height: auto;
-    min-width: 200px;
-    min-height: 200px;
-  }
-}
-
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: -webkit-sticky;
