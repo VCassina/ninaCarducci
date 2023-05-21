@@ -214,15 +214,22 @@ body {
 	padding-block: 3em;
 }
 
-.quote__text {
+blockquote h3 {
 	font-family: 'Spectral';
 	font-weight: 300;
+	font-size: 40px;
+}
+
+.form-container h2 {
+	font-weight: 300;
+	font-size: 28px;
 }
 
 .quote__author {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
+
 }
 
 #services {
@@ -304,6 +311,12 @@ body {
 	font-weight: 400;
 	font-size: 28px;
 }
+
+#services h2 {
+font-weight: 400;
+font-size: 28px;
+}
+
 
 form {
 	display: flex;
