@@ -137,7 +137,7 @@
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</section>
-	<main id="gallery">
+	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
@@ -246,11 +246,11 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-	</main>
+	</section>
 	<section id="services">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
-			<div class="service">
+			<article class="service">
 				<div class="service__description">
 					<h3>Shooting photo</h3>
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
@@ -261,8 +261,8 @@
 					<span>Matériel, déplacement inclus</span>
 				</div>
 
-			</div>
-			<div class="service">
+			</article>
+			<article class="service">
 				<div class="service__description">
 					<h3>Retouches</h3>
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
@@ -272,8 +272,8 @@
 					<h4>50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
-			</div>
-			<div class="service">
+			</article>
+			<article class="service">
 				<div class="service__description">
 					<h3>Album photos</h3>
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
@@ -283,7 +283,7 @@
 					<h4>400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
-			</div>
+			</article>
 		</div>
 	</section>
 	<article class="quote">
@@ -301,11 +301,11 @@
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom</label>
+					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
-					<label>Email</label>
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
-					<label>Message</label>
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer" />
 				</form>
@@ -314,7 +314,7 @@
 				<picture>
 					<source srcset="./assets/images/camera.webp">
 					<source srcset="./assets/images/nina.png">
-					<img src="" alt="..." class="picture_right">
+					<img src="" alt="Appareil photo sombre posée sur une table en bois en gros plan" class="picture_right">
 				</picture>
 			</div>
 		</div>
