@@ -454,16 +454,6 @@ input[type="submit"] {
 	}
 }
 
-.phoneNumber-Container {
-	width: fit-content;
-}
-
-.phoneNumber {
-
-	font-size: large;
-	font-weight: 500;
-}
-
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
