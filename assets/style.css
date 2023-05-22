@@ -132,7 +132,10 @@ body {
 }
 
 #about-me {
-	flex: 2
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 2;
 }
 
 .about-me__title {
@@ -141,11 +144,17 @@ body {
 	font-size: 30px;
 }
 
-.about-me__introduction {
+.about-me__introduction, .about-me__introduction span {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+}
+
+.localInformation {
+	font-size: large;
+	font-weight: 400;
+	margin-top: auto;
 }
 
 #about-me p {
@@ -214,7 +223,7 @@ body {
 	padding-block: 3em;
 }
 
-blockquote h3 {
+blockquote h3, blockquote span {
 	font-family: 'Spectral';
 	font-weight: 300;
 	font-size: 40px;
@@ -278,6 +287,12 @@ blockquote h3 {
 
 #contact .container {
 	display: flex;
+}
+
+#contact .container .form-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 .picture.right::before {
@@ -437,6 +452,16 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+}
+
+.phoneNumber-Container {
+	width: fit-content;
+}
+
+.phoneNumber {
+
+	font-size: large;
+	font-weight: 500;
 }
 
 @media all and (max-width: 650px) {

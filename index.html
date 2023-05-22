@@ -33,9 +33,11 @@
 </head>
 
 <body>
-	<nav class="top-header">
-		<h2 class="name">Nina Carducci</h2>
-		<div class="nav">
+	<header class="top-header">
+		<div itemscope itemtype="https://schema.org/Person">
+			<h2 itemprop="name" class="name">Nina Carducci</h2>
+		</div>
+		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -45,9 +47,9 @@
 						aria-label="Mon compte Instagram professionnel dédié à mes photographies" target="_blank"><img
 							src="./assets/images/instagram.png" alt="Logo instagram" clas="logoInstagram"></a></li>
 			</ul>
-		</div>
-	</nav>
-	<header id="header">
+		</nav>
+	</header>
+	<section id="header">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -122,21 +124,20 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</header>
+	</section>
 	<section id="about">
 		<div class="picture left">
 			<picture>
 				<source srcset="./assets/images/nina.webp">
 				<source srcset="./assets/images/nina.png">
-				<img src=""
-					alt="La photographe Nina Carducci une jeune femme noire au cheveux mi-longs qui regarde l'objectif"
-					class="picture_nina">
+				<img src="" itemprop="image" alt="La photographe Nina Carducci une jeune femme cheveux mi-longs qui regarde l'objectif"
+				class="picture_nina">
 			</picture>
 		</div>
-		<div id="about-me">
+		<div id="about-me" itemscope itemtype="https://schema.org/Person">
 			<h2 class="about-me__title">A propos de moi</h2>
-			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
-				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
+			<h3 class="about-me__introduction">Devenir <span itemprop="jobTitle">photographe</span> était pour moi une évidence. Comme si j’y étais
+				prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
 				immortels, voilà ce qui me fait vibrer.</h3>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
@@ -144,11 +145,16 @@
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-			<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
-				<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine,</span>
-				<span itemprop=”addressRegion”> Bordeaux</span>
-				<span itemprop=”postalCode”>33200</span>
-			</div>
+				<div class="localInformation">
+					<span itemprop="name">Nina Carducci</span>
+					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+					  <span itemprop="streetAddress">
+						10 rue Alsace-Lorraine, </span>
+						<span itemprop="addressLocality">Bordeaux</span>
+						<span itemprop="postalCode">33200</span>
+					</div>
+					<span itemprop="telephone">05.56.67.78.89</span>
+				</div>
 		</div>
 	</section>
 	<section id="gallery">
@@ -202,7 +208,7 @@
 	./assets/images/gallery/portraits/tablette/ade-tunji-rVkhWWZFAtQ-unsplash.webp 768w,
 	./assets/images/gallery/portraits/smartphone/ade-tunji-rVkhWWZFAtQ-unsplash.webp 576w,
 	./assets/images/gallery/portraits/low-smartphone/ade-tunji-rVkhWWZFAtQ-unsplash.webp 575w"
-					alt="Portait d'un homme noir barbu fermant les yeux face au soleil">
+					alt="Portait d'un homme barbu fermant les yeux face au soleil">
 
 				<img data-gallery-tag="Mariages" class="gallery-item"
 					src="./assets/images/gallery/mariage/modale/jakob-owens-SiniLJkXhMc-unsplash.webp" srcset="
