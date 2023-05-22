@@ -216,7 +216,7 @@ body {
 blockquote h3 {
 	font-family: 'Spectral';
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 38px;
 }
 
 .form-container h2 {
@@ -288,6 +288,10 @@ blockquote h3 {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+}
+
+.picture.right {
+	z-index: 0;
 }
 
 .form-container {
