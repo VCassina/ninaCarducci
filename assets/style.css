@@ -71,6 +71,16 @@ body {
 	font-size: 26px;
 }
 
+.top-header .job {
+	font-size: 14px;
+}
+
+h1 {
+	display: flex;
+	gap: 35px;
+	align-items:last baseline;
+}
+
 .nav ul {
 	display: flex;
 	list-style-type: none;
@@ -152,7 +162,7 @@ body {
 }
 
 .localInformation {
-	font-size: large;
+	font-size: 16px;
 	font-weight: 400;
 	margin-top: auto;
 }
