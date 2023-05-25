@@ -546,3 +546,7 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
+
+.nav-link.active.active-tag {
+	color: #1F1F1F;
+}
