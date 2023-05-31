@@ -1794,6 +1794,14 @@ textarea.form-control-lg {
   opacity: 0
 }
 
+.modal-backdrop.fade {
+  opacity: 0;
+}
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -1955,9 +1963,9 @@ textarea.form-control-lg {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.2);
-  border-radius: .3rem;
-  outline: 0
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target],.modal-backdrop {
@@ -1970,8 +1978,10 @@ textarea.form-control-lg {
   left: 0;
   z-index: 1050;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
+  background-color: #000;
 }
+
 
 .modal-header {
   display: flex;
