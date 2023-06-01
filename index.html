@@ -22,7 +22,7 @@
 	<meta name="description" content="Découvrez le portefolio de Nina Carducci, une photographe passionnée basée à Bordeaux et qui peut se déplacer jusqu'à vous, en Île-de-France. 
 	Concerts, photos d'entreprise, mariages et portraits pro. Shooting photo, retouches professionnelles et albums photo personnalisés. 
 	Suivez Nina sur Instagram et contactez-la pour vos besoins photographiques.">
-	<meta charset="UTF-8">
+
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -48,6 +48,8 @@
 		content="Portait de Nina Carducci, photographe professionnelle passionée sur Bordeaux et Île-de-France">
 
 	<title>Nina Carducci - Photographe professionnelle Bordeaux Paris & Île-de-France</title>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 </head>
 
 <body>
@@ -62,13 +64,13 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+				<li><a href="https://www.instagram.com/ninacarducci.photo/?hl=fr" class="social-link logoInstagram"
 						aria-label="Mon compte Instagram professionnel dédié à mes photographies" target="_blank"><img
-							src="./assets/images/instagram.png" alt="Logo instagram" clas="logoInstagram"></a></li>
+							src="./assets/images/instagram.png" alt="Logo instagram"></a></li>
 			</ul>
 		</nav>
 	</header>
-	<section id="header">
+	<article id="header">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -80,17 +82,18 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="" class="d-block w-100 carousel-item_img ryoji_picture"
+					<img src="./assets/images/slider/full-resolution/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100 carousel-item_img ryoji_picture"
 						alt="Un homme d'affaire marchant seul sur un grand passage piéton dans une métropole" srcset="
 							./assets/images/slider/smartphone/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 575w,
 							./assets/images/slider/tablette/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 768w,
 							./assets/images/slider/low-desktop/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 992w,
 							./assets/images/slider/desktop/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1200w,
-							./assets/images/slider/full-desktop/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1400w,
-							./assets/images/slider/full-resolution/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1401w" width="1920" height="888">
+							./assets/images/slider/full-desktop/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1400w, 
+							./assets/images/slider/full-resolution/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1401w" width="1920" height="888"
+							sizes="(max-width: 575px) 575px, (max-width: 768px) 768px,(max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1400px) 1400px, (min-width: 100vw) 1401px">
 				</div>
 				<div class="carousel-item">
-					<img src="" class="d-block w-100 carousel-item_img"
+					<img src="./assets/images/slider/full-resolution/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100 carousel-item_img"
 						alt="Une foule de jeunes gens lors d'un événement festif comme un concert extérieur de nuit"
 						srcset="
 							./assets/images/slider/smartphone/nicholas-green-nPz8akkUmDI-unsplash.webp 575w,
@@ -99,10 +102,11 @@
 							./assets/images/slider/desktop/nicholas-green-nPz8akkUmDI-unsplash.webp 1200w,
 							./assets/images/slider/full-desktop/nicholas-green-nPz8akkUmDI-unsplash.webp 1400w,
 							./assets/images/slider/full-resolution/nicholas-green-nPz8akkUmDI-unsplash.webp 1401w" width="1920"
-						height="888">
+						height="888"
+						sizes="(max-width: 575px) 575px, (max-width: 768px) 768px,(max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1400px) 1400px, (min-width: 100vw) 1401px">
 				</div>
 				<div class="carousel-item">
-					<img src="" class="d-block w-100 carousel-item_img"
+					<img src="./assets/images/slider/full-resolution/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100 carousel-item_img"
 						alt="Les mariés s'embrassent intensémment au milieu de leurs proches durant un marriage sophistiphé"
 						srcset="
 							./assets/images/slider/smartphone/edward-cisneros-3_h6-1NPDGw-unsplash.webp 575w,
@@ -111,7 +115,8 @@
 							./assets/images/slider/desktop/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1200w,
 							./assets/images/slider/full-desktop/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1400w,
 							./assets/images/slider/full-resolution/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1401w" width="1920"
-						height="885">
+						height="885"
+						sizes="(max-width: 575px) 575px, (max-width: 768px) 768px,(max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1400px) 1400px, (max-width: 100vw) 1401px">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -125,15 +130,17 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</section>
+	</article>
 	<section id="about">
 		<div class="picture left">
-			<img src="" itemprop="image"
+			<img src="./assets/images/nina/nina-fullsize.webp"
 				alt="La photographe Nina Carducci une jeune femme cheveux mi-longs qui regarde l'objectif"
 				class="picture_nina" srcset="./assets/images/nina/nina-fullsize.webp 1181w,
 				./assets/images/nina/nina-mediumsize.webp 1180w,
 				./assets/images/nina/nina-smallsize.webp 1000w,
-				./assets/images/nina/nina-verysmallsize.webp 650w" width="560" height="560">
+				./assets/images/nina/nina-verysmallsize.webp 650w" width="560" height="560"
+				sizes="(max-width: 560px) 1181px, (max-width: 470px) 1180px, (max-width: 400px) 1000px, (max-width: 470px) 650px"
+				>
 		</div>
 		<div id="about-me" itemscope itemtype="https://schema.org/Person">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -147,29 +154,29 @@
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-			<div class="localInformation_fullscreen">
-				<span itemprop="name">Nina Carducci</span>
-				<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
-					<span itemprop="streetAddress">
-						10 rue Alsace-Lorraine, </span>
-					<span itemprop="addressLocality">Bordeaux</span>
-					<span itemprop="postalCode">33200</span>
+				<div class="localInformation_fullscreen">
+					<span itemprop="name">Nina Carducci</span>
+					<div itemscope itemtype="https://schema.org/PostalAddress">
+						<span itemprop="streetAddress">10 rue Alsace-Lorraine, </span>
+						<span itemprop="addressLocality">Bordeaux</span>
+						<span itemprop="postalCode">33200</span>
+					</div>
+					<span itemprop="telephone" class="phoneNumber">05.56.67.78.89</span>
+					<span> / Lundi - Vendredi de 10h à 19h</span>
 				</div>
-				<span itemprop="telephone" class="phoneNumber">05.56.67.78.89</span>
-				<span> / Lundi - Vendredi de 10h à 19h</span>
 			</div>
-		</div>
-		<div class="localInformation_lowscreen">
-			<span itemprop="name">Nina Carducci</span>
-			<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
-				<span itemprop="streetAddress">
-					10 rue Alsace-Lorraine, </span>
-				<span itemprop="addressLocality">Bordeaux</span>
-				<span itemprop="postalCode">33200</span>
-			</div>
-			<span itemprop="telephone" class="phoneNumber">05.56.67.78.89</span>
-			<span> / Lundi - Vendredi de 10h à 19h</span>
-		</div>
+				
+				<div class="localInformation_lowscreen" itemscope itemtype="https://schema.org/PostalAddress">
+					<span itemprop="name">Nina Carducci</span>
+					<div itemscope itemtype="https://schema.org/PostalAddress">
+						<span itemprop="streetAddress">10 rue Alsace-Lorraine, </span>
+						<span itemprop="addressLocality">Bordeaux</span>
+						<span itemprop="postalCode">33200</span>
+					</div>
+					<span itemprop="telephone" class="phoneNumber">05.56.67.78.89</span>
+					<span> / Lundi - Vendredi de 10h à 19h</span>
+				</div>
+				
 	</section>
 	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
@@ -184,8 +191,8 @@
 			  ./assets/images/gallery/concerts/tablette/aaron-paul-wnX-fXzB6Cw-unsplash.webp 768w,
 			  ./assets/images/gallery/concerts/smartphone/aaron-paul-wnX-fXzB6Cw-unsplash.webp 576w,
 			  ./assets/images/gallery/concerts/low-smartphone/aaron-paul-wnX-fXzB6Cw-unsplash.webp 575w"
-
-					alt="Important concert vu depuis la foule qui lève les bras" width="440" height="440" />
+					alt="Important concert vu depuis la foule qui lève les bras" width="440" height="440" 
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Entreprises" class="gallery-item"
 					src="./assets/images/gallery/entreprise/modale/ali-morshedlou-WMD64tMfc4k-unsplash.webp" srcset="
 			  ./assets/images/gallery/entreprise/full-desktop/ali-morshedlou-WMD64tMfc4k-unsplash.webp 1400w,
@@ -194,7 +201,8 @@
 			  ./assets/images/gallery/entreprise/tablette/ali-morshedlou-WMD64tMfc4k-unsplash.webp 768w,
 			  ./assets/images/gallery/entreprise/smartphone/ali-morshedlou-WMD64tMfc4k-unsplash.webp 576w,
 			  ./assets/images/gallery/entreprise/low-smartphone/ali-morshedlou-WMD64tMfc4k-unsplash.webp 575w"
-					alt="Un homme d'affaire propre sur lui et bien habillé" width="440" height="440">
+					alt="Un homme d'affaire propre sur lui et bien habillé" width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Entreprises" class="gallery-item"
 					src="./assets/images/gallery/entreprise/modale/jason-goodman-tHO1_OuKbg0-unsplash.webp" srcset="
 			 ./assets/images/gallery/entreprise/full-desktop/jason-goodman-tHO1_OuKbg0-unsplash.webp 1400w,
@@ -203,7 +211,8 @@
 			 ./assets/images/gallery/entreprise/tablette/jason-goodman-tHO1_OuKbg0-unsplash.webp 768w,
 			 ./assets/images/gallery/entreprise/smartphone/jason-goodman-tHO1_OuKbg0-unsplash.webp 576w,
 			 ./assets/images/gallery/entreprise/low-smartphone/jason-goodman-tHO1_OuKbg0-unsplash.webp 575w"
-					alt="Femme riant avec ses collégues sur son lieu de travail" width="440" height="440">
+					alt="Femme riant avec ses collégues sur son lieu de travail" width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Mariages" class="gallery-item"
 					src="./assets/images/gallery/mariage/modale/hannah-busing-RvF2R_qMpRk-unsplash.webp" srcset="
 			 ./assets/images/gallery/mariage/full-desktop/hannah-busing-RvF2R_qMpRk-unsplash.webp 1400w,
@@ -212,7 +221,8 @@
 			 ./assets/images/gallery/mariage/tablette/hannah-busing-RvF2R_qMpRk-unsplash.webp 768w,
 			 ./assets/images/gallery/mariage/smartphone/hannah-busing-RvF2R_qMpRk-unsplash.webp 576w,
 			 ./assets/images/gallery/mariage/low-smartphone/hannah-busing-RvF2R_qMpRk-unsplash.webp 575w"
-					alt="Gros plan sur les mariés qui se tendent les mains à leur marriage" width="440" height="440">
+					alt="Gros plan sur les mariés qui se tendent les mains à leur marriage" width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Portrait" class="gallery-item"
 					src="./assets/images/gallery/portraits/modale/ade-tunji-rVkhWWZFAtQ-unsplash.webp" srcset="
 	./assets/images/gallery/portraits/full-desktop/ade-tunji-rVkhWWZFAtQ-unsplash.webp 1400w,
@@ -221,7 +231,8 @@
 	./assets/images/gallery/portraits/tablette/ade-tunji-rVkhWWZFAtQ-unsplash.webp 768w,
 	./assets/images/gallery/portraits/smartphone/ade-tunji-rVkhWWZFAtQ-unsplash.webp 576w,
 	./assets/images/gallery/portraits/low-smartphone/ade-tunji-rVkhWWZFAtQ-unsplash.webp 575w"
-					alt="Portait d'un homme barbu fermant les yeux face au soleil" width="440" height="440">
+					alt="Portait d'un homme barbu fermant les yeux face au soleil" width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Mariages" class="gallery-item"
 					src="./assets/images/gallery/mariage/modale/jakob-owens-SiniLJkXhMc-unsplash.webp" srcset="
 	./assets/images/gallery/mariage/full-desktop/jakob-owens-SiniLJkXhMc-unsplash.webp 1400w,
@@ -231,7 +242,8 @@
 	./assets/images/gallery/mariage/smartphone/jakob-owens-SiniLJkXhMc-unsplash.webp 576w,
 	./assets/images/gallery/mariage/low-smartphone/jakob-owens-SiniLJkXhMc-unsplash.webp 575w"
 					alt="Couple marche main dans la main, riant, sur une plage paradisiaque au crépuscule" width="440"
-					height="440">
+					height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Portrait" class="gallery-item"
 					src="./assets/images/gallery/portraits/modale/nino-van-prattenburg-443cl1uR_8-unsplash.webp" srcset="
 	./assets/images/gallery/portraits/full-desktop/nino-van-prattenburg-443cl1uR_8-unsplash.webp 1400w,
@@ -241,7 +253,8 @@
 	./assets/images/gallery/portraits/smartphone/nino-van-prattenburg-443cl1uR_8-unsplash.webp 576w,
 	./assets/images/gallery/portraits/low-smartphone/nino-van-prattenburg-443cl1uR_8-unsplash.webp 575w"
 					alt="Portait d'une jeune femme aux cheveux mi-long chatain clair à travers un grillage" width="440"
-					height="440">
+					height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Concert" class="gallery-item"
 					src="./assets/images/gallery/concerts/modale/austin-neill-hgO1wFPXl3I-unsplash.webp" srcset="
 	./assets/images/gallery/concerts/full-desktop/austin-neill-hgO1wFPXl3I-unsplash.webp 1400w,
@@ -251,7 +264,8 @@
 	./assets/images/gallery/concerts/smartphone/austin-neill-hgO1wFPXl3I-unsplash.webp 576w,
 	./assets/images/gallery/concerts/low-smartphone/austin-neill-hgO1wFPXl3I-unsplash.webp 575w"
 					alt="Un chanteur sur une scène, il porte le micro à sa bouche et montre un 4 à la foule avec ses doigts"
-					width="440" height="440">
+					width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 				<img data-gallery-tag="Entreprises" class="gallery-item"
 					src="./assets/images/gallery/entreprise/modale/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
 					srcset="
@@ -262,7 +276,8 @@
 	./assets/images/gallery/entreprise/smartphone/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 578w,
 	./assets/images/gallery/entreprise/low-smartphone/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 575w"
 					alt="Femme riant sur son lieu de travail, elle est assise à son bureau et travaille sur son ordinateur"
-					width="440" height="440">
+					width="440" height="440"
+					sizes="(max-width: 440px) 1400px, (max-width: 380px) 1200px, (max-width: 320px) 992px, (max-width: 240px) 768px, (max-width: 270px) 576px, (max-width: 575px) 575px">
 			</div>
 		</div>
 		<div class="quote">
@@ -330,7 +345,7 @@
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form action="javascript:void(0);" method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
 					<label for="email">Email</label>
@@ -341,18 +356,19 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="" alt="Appareil photo sombre posée sur une table en bois en gros plan" class="picture_right"
+				<img src="./assets/images/camera/camera-fullsize.webp" alt="Appareil photo sombre posée sur une table en bois en gros plan" class="picture_right"
 					srcset="./assets/images/camera/camera-fullsize.webp 1181w,
 						./assets/images/camera/camera-mediumsize.webp 1180w,
 						./assets/images/camera/camera-smallsize.webp 1000w,
-						./assets/images/camera/camera-verysmallsize.webp 650w" width="420" height="420">
+						./assets/images/camera/camera-verysmallsize.webp 650w" width="420" height="420"
+						sizes="(max-width: 420px) 1181px, (max-width: 450px) 1180px, (max-width: 390px) 1000px, (max-width: 415px) 650px">
 			</div>
 		</div>
 	</section>
+
+	<script src="./assets/jquery.min.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+
 </body>
-<script src="./assets/jquery.min.js"></script>
-<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="./assets/maugallery.js" async></script>
-<script src="./assets/scripts.js" async></script>
 
 </html>
